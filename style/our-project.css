@@ -84,7 +84,7 @@
 
 /* блок news-dog */
 .news-dog__block-img {
-	background-image: url(/img/news-dog-dogs.jpg);
+	background-image: url(../img/news-dog-dogs.jpg);
 	background-repeat: no-repeat;
 	max-width: 380px;
 	height: 450px;
