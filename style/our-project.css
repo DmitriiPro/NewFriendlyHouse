@@ -38,15 +38,12 @@
 .our-project__item {
 	display: grid;
 	grid-template-columns: minmax(130px, 280px) auto;
+	gap: 20px;
 }
 
 .our-project__list {
 	display: grid;
     grid-row-gap: 30px;
-}
-
-.our-project__item {
-	gap: 20px;
 }
 
 .our-project__subtitle-img {
@@ -80,6 +77,29 @@
 	position: absolute;
 	top: -2px;
 	right: -44px;
+}
+
+/* фото our-project__lenta */
+
+.our-project__img {
+	max-width: 280px;
+	height: 180px;
+}
+
+.our-project__blue-dog {
+	background-image: url(../img/our-dog-home-blue.jpg);
+}
+
+.our-project__orange-dog {
+	background-image: url(../img/our-dog-orange-kurtka.jpg);
+}
+
+.our-project__dog-girl {
+	background-image: url(../img/our-dog-girl.jpg);
+}
+
+.our-project__dog-brown {
+	background-image: url(../img/our-dog-brown.jpg);
 }
 
 /* блок news-dog */
@@ -144,4 +164,58 @@
 	grid-template-columns: repeat(4, minmax(60px, 80px));
     grid-template-rows: repeat(3, minmax(52px, 70px));
     gap: 20px;
+}
+
+/* фото big-project */
+.big-project__img {
+	width: 80px;
+	height: 70px;
+}
+
+.big-project__dog-orange-1 {
+	background-image: url(../img/big-project-dog-orange-1.jpg);
+}
+
+.big-project__mops-2 {
+	background-image: url(../img/big-project-mops-2.jpg);
+}
+
+.big-project__rabbit-3 {
+	background-image: url(../img/big-project-rabbit-3.jpg);
+}
+
+.big-project__malamut-4 {
+	background-image: url(../img/big-project-malamut-4.jpg);
+}
+
+.big-project__dog-brown-5 {
+	background-image: url(../img/big-project-dog-brown-5.jpg);
+}
+
+.big-project__popugay-blue-6 {
+	background-image: url(../img/big-project-popugay-blue-6.jpg);
+}
+
+.big-project__children-dog-7 {
+	background-image: url(../img/big-project-children-dog-7.jpg);
+}
+
+.big-project__kakadu-8 {
+	background-image: url(../img/big-project-kakadu-8.jpg);
+}
+
+.big-project__yellow-parrot-9 {
+	background-image: url(../img/big-project-yellow-parrot-9.jpg);
+}
+
+.big-project__jeans-dog-10 {
+	background-image: url(../img/big-project-jeans-dog-10.jpg);
+}
+
+.big-project__doghat-girl-11 {
+	background-image: url(../img/big-project-doghat-girl-11.jpg);
+}
+
+.big-project__white-rabbit-12 {
+	background-image: url(../img/big-project-white-rabbit-12.jpg);
 }
