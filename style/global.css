@@ -25,6 +25,7 @@ body {
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
+    font-style: normal;
     color: var(--main-color,#282626);
     background-color: var(--main-background,#f2f0f1);
 }
@@ -91,6 +92,14 @@ form {
 section {
     padding: 45px 0;
 }
+
+@media(max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+
 
 
 
